@@ -6,6 +6,6 @@ The mean teacher code is originated from https://github.com/CuriousAI/mean-teach
 
 Before runnig the code, put the training dataset and validation set under the folder: /Semi-supervised_Learning_DL/mean_teacher/data-local/images/ilsvrc2012/ with the folder name 'train' and 'val'. Put your records of labeled data in a separate folder under /Semi-supervised_Learning_DL/mean_teacher/data-local/labels in a txt file with a desired format.
 
-The find-tune.sbatch file provides a suggestion of hyperparamters to use, but it is not necessary the most optimized version. The sbatch file can be used to submit jobs directly to NYU HPC.
+The fine-tune.sbatch file provides a suggestion of hyperparamters to use, but it is not necessary the most optimized version. The sbatch file can be used to submit jobs directly to NYU HPC.
 
 In order to see how to do the training, run python main.py --help to get more details.
