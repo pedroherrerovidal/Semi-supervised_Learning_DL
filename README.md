@@ -9,3 +9,6 @@ Before runnig the code, put the training dataset and validation set under the fo
 The fine-tune.sbatch file provides a suggestion of hyperparamters to use, but it is not necessary the most optimized version. The sbatch file can be used to submit jobs directly to NYU HPC.
 
 In order to see how to do the training, run python main.py --help to get more details.
+
+https://www.overleaf.com/read/drqnsxrkkxxb
+
