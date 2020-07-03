@@ -2,7 +2,7 @@
 Semi-supervised Learning method for image classification (1k classes). Structure: CNN with residual connections stacked on top of the encoder module of a convolutional auto-encoder (Pytorch).
 
 ## Mean Teacher Method
-The mean teacher code is originated from https://github.com/CuriousAI/mean-teacher/tree/master/pytorch. The original one comes with resnet152 and cifar_shakeshake26 model architectures. Here, we added a ResNet18 to the architectures.py but feel free to use any model that is compatible with your purposes. We also modified the main.py script so that it works with the lastest pytorch version.
+The mean teacher code is originated from [Mean Teacher repository](https://github.com/CuriousAI/mean-teacher/tree/master/pytorch). The original one comes with resnet152 and cifar_shakeshake26 model architectures. Here, we added a ResNet18 to the architectures.py but feel free to use any model that is compatible with your purposes. We also modified the main.py script so that it works with the lastest pytorch version.
 
 Before runnig the code, put the training dataset and validation set under the folder: /Semi-supervised_Learning_DL/mean_teacher/data-local/images/ilsvrc2012/ with the folder name 'train' and 'val'. Put your records of labeled data in a separate folder under /Semi-supervised_Learning_DL/mean_teacher/data-local/labels in a txt file with a desired format.
 
@@ -10,5 +10,5 @@ The fine-tune.sbatch file provides a suggestion of hyperparamters to use, but it
 
 In order to see how to do the training, run python main.py --help to get more details.
 
-https://www.overleaf.com/read/drqnsxrkkxxb
+[Manuscript overaleaf link](https://www.overleaf.com/read/drqnsxrkkxxb}
 
