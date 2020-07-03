@@ -1,7 +1,7 @@
 # Semi-supervised Learning strategy using Deep Network convolutional auto encoders (CAE)
 Semi-supervised Learning method for image classification (1k classes). Structure: CNN with residual connections stacked on top of the encoder module of a convolutional auto-encoder (Pytorch). The encoder network weights are trained using unlabeled images after which they are frozen. A CNN with residual connections is then stacked on top and trained on labeled data for classification.
 
-Run [CAE_train.sbatch](./CAE_ResNet/CAE_train.sbatch) file to train and evaluate this Semi-supervised learning strategy.
+Run python code [CAE_train.py](./CAE_ResNet/CAE_train.py) or HPC job [CAE_train.sbatch](./CAE_ResNet/CAE_train.sbatch) to train and evaluate this Semi-supervised learning strategy.
 
 ## Mean Teacher method
 The mean teacher code is originated from [Mean Teacher repository](https://github.com/CuriousAI/mean-teacher/tree/master/pytorch). The original one comes with resnet152 and cifar_shakeshake26 model architectures. Here, we added a ResNet18 to the architectures.py but feel free to use any model that is compatible with your purposes. We also modified the main.py script so that it works with the lastest pytorch version.
