@@ -12,5 +12,5 @@ The [fine-tune.sbatch](./mean_teacher/fine-tune.sbatch) file provides a suggesti
 
 In order to see how to do the training, run python [main.py](./mean_teacher/main.py) --help to get more details.
 
-[Manuscript overaleaf link](https://www.overleaf.com/read/drqnsxrkkxxb)
+[Manuscript overleaf link](https://www.overleaf.com/read/drqnsxrkkxxb)
 
